@@ -13,6 +13,10 @@ Project is written in python, using mainly the following libraries:
 
 [scikit](https://scikit-learn.org/stable/index.html) Provides the Neural network 
 
+[requests](https://docs.python-requests.org/en/latest/) HTTP library, used for data mining
+
+[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) HTML parser for python, used for data mining
+
 [Docker](https://www.docker.com/) Run time VMs
 
 
