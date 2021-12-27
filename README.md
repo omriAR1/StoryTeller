@@ -81,6 +81,11 @@ Definition: An event forces the main character to change their ways and often be
 #### Examples
 *Pride and Prejudice, The Frog Prince.*
 
+# Intallation
+Build
+'Docker build -rm -f Dockerfile -t "classfication" .'
+Run
+'Docker run classfication'
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
