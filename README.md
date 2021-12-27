@@ -50,7 +50,7 @@ The protagonist sets out to defeat an antagonistic force (often evil) which thre
 *James Bond, Jaws, Star Wars*
 
 ### Rags to riches 
-Definition: The poor protagonist acquires power, wealth, and/or a mate, loses it all and gains it back, growing as a person as a result.
+The poor protagonist acquires power, wealth, and/or a mate, loses it all and gains it back, growing as a person as a result.
 
 #### Examples
 *Cinderella, Aladdin*
