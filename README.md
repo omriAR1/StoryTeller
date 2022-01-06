@@ -37,7 +37,8 @@ https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019, la
 ### Data mining
 
 Each of the available datasets lacks a book description column, if needed, will write a web crawler that searches a book in amazon and set its description.
-
+Currently implemented a Wikipedia crawl, with Amazon crawl in development
+example can be found in the *books_plot.csv* file
 
 # Story lines
 According to current research, there are 7 unique plots.
