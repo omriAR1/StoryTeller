@@ -1,8 +1,6 @@
 import csv
 import logging
-import requests
 import wikipediaapi
-from bs4 import BeautifulSoup
 
 
 # Settings for the program #
