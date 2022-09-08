@@ -47,6 +47,14 @@ def remove_non_ascii(row):
     for word in row["description"]:
         if word.isascii():
             cleaned += word
+    return cleaneddef remove_non_ascii(row):
+    """
+    REMOVE NON ASCII CHARACTERS
+    """
+    cleaned = ""
+    for word in row["description"]:
+        if word.isascii():
+            cleaned += word
     return cleaned
 
 
@@ -160,7 +168,7 @@ if __name__ == "__main__":
     from sklearn.feature_extraction.text import CountVectorizer
     count_vect = CountVectorizer()
     X_train_counts = count_vect.fit_transform(books_df.title)
-    print(count_vect.vocabulary_.get(u'Sea'))
+    print(len(count_vect.vocabulary_.keys()))
 
     from sklearn.feature_extraction.text import TfidfTransformer
     tf_transformer = TfidfTransformer(use_idf=False).fit(X_train_counts)
