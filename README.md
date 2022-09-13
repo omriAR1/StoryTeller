@@ -9,29 +9,13 @@ Project is written in python, using mainly the following libraries:
 
 [pandas](https://pandas.pydata.org/) High performance data structures 
 
-[spacy](https://spacy.io/) Provides *Name Entity* and *lemmatization*
-
-[scikit](https://scikit-learn.org/stable/index.html) Provides the Neural network 
-
-[requests](https://docs.python-requests.org/en/latest/) HTTP library, used for data mining
-
-[beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) HTML parser for python, used for data mining
-
-[Docker](https://www.docker.com/) Run time VMs
-
 
 # Data
-Still in search for a large dataset, ideally one that structured in this format:
+All of James Joyce works, by the Gutenburg project
 
-Book id, Book Name, Back Cover Description, Author, Year, genre
 
 ### Request for data
 Contacted Amazon for permission to use the book store information for academic purposes. (Also contacted Google for permissions to use https://books.google.com/)
-
-### Available datasets
-https://www.kaggle.com/jealousleopard/goodreadsbooks , lacks a description of the book
-
-https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019, lacks book description
 
 
 ### Data mining
@@ -85,13 +69,3 @@ Definition: An event forces the main character to change their ways and often be
 
 #### Examples
 *Pride and Prejudice, The Frog Prince.*
-
-# Intallation
-Build
-`Docker build -rm -f Dockerfile -t "classfication" .`
-
-Run
-`Docker run classfication`
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
